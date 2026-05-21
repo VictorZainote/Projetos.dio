@@ -31,9 +31,9 @@ const heroi2 = new Heroi("Hercules", 35, "guerreiro");
 heroi1.atacar(); 
 heroi2.atacar();
 
-const nomeHeroi = gets();
-const idadeHeroi = parseInt(gets());
-const tipoHeroi = gets();
+const nomeHeroi = "VH";
+const idadeHeroi = 29;
+const tipoHeroi = "ninja";
 
 const heroiPersonalizado = new Heroi(nomeHeroi, idadeHeroi, tipoHeroi);
 heroiPersonalizado.atacar(); 
